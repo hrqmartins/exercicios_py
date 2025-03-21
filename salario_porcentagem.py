@@ -1,0 +1,7 @@
+print('-----------------')
+print('Aumento Salário')
+print('-----------------')
+SA = float(input('Digite seu Salário Atual: '))
+P = float(input('Digita a porcentagem do aumento: '))
+SN = SA * (1 + P / 100)
+print('Salário Novo: ', SN)
